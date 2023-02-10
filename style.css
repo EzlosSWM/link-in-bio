@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300&family=Sassy+Frass&display=swap');
+  * {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+
+  }
+
+  a:visited {
+    color: white;
+  }
+
+  h1 {
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+  }
+
+  h3{
+    margin-top: 0.5rem;
+    font-family: 'Sassy Frass', cursive;
+    font-weight: 400;
+   font-size:2rem;
+  }
+
+  body {
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(47,72,88);
+  }
+
+  .container {
+    width: 70vw;
+    max-width: 500px;
+    text-align: center;
+    border-radius: 1rem 4rem;
+    background: linear-gradient(to bottom, rgba(255, 235, 204, 0.8), rgba(255, 235, 204, 0.6));
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.19), 0px 6px 6px rgba(0, 0, 0, 0.23);
+    color: black;
+    justify-content: center;
+    margin-block: 2.4rem;
+  }
+
+  .pro-pic {
+    width: 80px;
+    border-radius: 100%;
+  }
+
+ 
+  header {
+    /* padding: 1rem; */
+    padding: 1rem 1rem 0.3rem 1rem;
+  }
+
+  ul {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0rem 1rem 1rem 1rem;
+  }
+
+  ul > li {
+    /* padding: 0 auto; */
+    /* margin:1rem; */
+    background-color: rgb(47,72,88);
+    box-shadow: 0px 0px 200px 5px rgba(255, 255, 255, 0.59);
+    border-radius: 10rem;
+    margin: 1rem 0;
+    color: white;
+  }
+
+  ul > li:hover{
+    background-color: rgba(47,72,88, 0.8);
+  }
+
+  ul > li > a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:0.5rem;
+    padding: 1rem;
+    color: white;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+  }
+ 
+ .socials {
+    width: 30px;
+    margin-right: 2rem;
+  }
+
